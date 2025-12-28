@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kaiden Cervantes",
@@ -19,5 +12,12 @@
     "title": "Kaiden Cervantes",
     "section": "",
     "text": "A dedicated personal trainer specializing in strength and conditioning. I work with athletes and everyday clients to build performance, confidence, and long-term health through structured training programs that emphasize injury prevention and sustainable progress."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   }
 ]
