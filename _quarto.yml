@@ -5,15 +5,25 @@ project:
 website:
   title: "Kaiden Cervantes"
   search: false
-  navbar: false
+  navbar:
+    pinned: true
+    left: []
+    right:
+      - text: "Resume"
+        href: resume.pdf
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kaiden-cervantes-4328483a1/
+        aria-label: LinkedIn
+      - icon: envelope-fill
+        href: mailto:kcervantes2334@gmail.com
+        aria-label: Email
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
-    page-layout: full
+    page-layout: article
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-

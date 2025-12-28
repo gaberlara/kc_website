@@ -2,34 +2,39 @@
 title: ""
 ---
 
-::: {.hero}
+<div class="home">
 
-::: {.grid}
+<div class="home-grid">
 
-::: {.g-col-12 .g-col-md-4}
-![](headshot.png){fig-alt="Headshot" .headshot}
-:::
- 
-::: {.g-col-12 .g-col-md-8}
+<div class="home-photo">
+<img src="headshot.png" alt="Kaiden Cervantes headshot" class="headshot-rect">
+</div>
 
-# Kaiden Cervantes {.name}
+<div class="home-text">
 
-::: {.tagline}
-Strength & Conditioning • Personal Training
+<p class="lead">
+I’m a dedicated personal trainer specializing in strength and conditioning. I work with athletes and
+everyday clients to build performance, confidence, and long-term health through structured training
+programs that emphasize injury prevention and sustainable progress.
+</p>
 
+<p class="inline-links">
+<a class="btn-primary" href="resume.pdf" target="_blank" rel="noopener">View Resume</a>
+<a class="icon-link" href="https://www.linkedin.com/in/kaiden-cervantes-4328483a1/" target="_blank" rel="noopener" aria-label="LinkedIn">
+  <i class="bi bi-linkedin"></i>
+</a>
+<a class="icon-link" href="mailto:kcervantes2334@gmail.com" aria-label="Email">
+  <i class="bi bi-envelope-fill"></i>
+</a>
+</p>
 
-::: {.links}
-[Resume](resume.pdf){.btn .btn-primary target="_blank"}
+<ul class="focus-list">
+  <li><strong>Strength &amp; Conditioning</strong> for athletes and active clients</li>
+  <li><strong>Injury prevention</strong> through smart programming and form coaching</li>
+  <li><strong>Sustainable progress</strong> with structured training plans</li>
+</ul>
 
-[<i class="bi bi-linkedin"></i>](https://www.linkedin.com/in/kaiden-cervantes-4328483a1/){.icon-link target="_blank" aria-label="LinkedIn"}
+</div>
+</div>
 
-[<i class="bi bi-envelope-fill"></i>](mailto:kcervantes2334@gmail.com){.icon-link aria-label="Email"}
-:::
-
-<hr class="accent">
-
-## About Me
-
-A dedicated personal trainer specializing in strength and conditioning. I work with athletes and everyday clients to build performance, confidence, and long-term health through structured training programs that emphasize injury prevention and sustainable progress.
-
-
+</div>
