@@ -1,0 +1,170 @@
+/* Reset + global */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at top left, #0b1aa0 0%, #000A3E 55%, #00051f 100%);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* Main content card */
+.hero {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2.25rem;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px;
+}
+
+/* Grid spacing helper */
+.grid {
+  row-gap: 2rem;
+}
+
+/* Name + tagline */
+.name {
+  font-size: 44px;
+  margin: 0 0 0.25rem 0;
+  letter-spacing: 0.5px;
+}
+
+.tagline {
+  font-size: 18px;
+  margin: 0 0 1rem 0;
+  opacity: 0.9;
+}
+
+/* Accent divider */
+hr.accent {
+  border: 0;
+  height: 2px;
+  background: rgba(255,255,255,0.35);
+  margin: 1rem 0 1.25rem 0;
+}
+
+/* Headshot */
+.headshot {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #ffffff;
+  padding: 6px;
+  display: block;
+}
+
+/* Section headers */
+h2 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+/* Links area */
+.links {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+/* Resume button */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+  background: transparent;
+  transition: transform 0.15s ease-in-out,
+              background-color 0.2s ease-in-out,
+              color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000A3E;
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #000A3E;
+  border-color: #ffffff;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #e6e6e6;
+  color: #000A3E;
+}
+
+
+/* Icon buttons */
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.12);
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform 0.15s ease-in-out,
+              background-color 0.2s ease-in-out;
+}
+
+/* Perfectly center icons inside circular buttons */
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link i {
+  display: block;
+  line-height: 1;
+  position: relative;
+  top: -1px;   /* fine-tune vertical centering */
+}
+
+
+.icon-link i {
+  font-size: 22px;
+}
+
+/* Hover effect */
+.icon-link:hover {
+  background-color: #ffffff;
+  color: #000A3E;
+  transform: translateY(-2px);
+}
+
+.icon-link[aria-label="LinkedIn"]:hover {
+  background-color: #0a66c2;
+  color: #ffffff;
+}
+
+
+/* Optional focus pills */
+.pill-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.pill {
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(255,255,255,0.06);
+  font-size: 14px;
+}
